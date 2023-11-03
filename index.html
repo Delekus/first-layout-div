@@ -6,7 +6,7 @@
 
 <head>
 	<!-- Заголовок страницы в браузере -->
-	<title>Color Block Table</title>
+	<title>Color Block Div</title>
 	<meta charset="UTF-8">
 	<style>
 		body {
@@ -24,7 +24,7 @@
 			color: blue;
 		}
 		.container {
-			background-color: #000;
+			background-color: #f0e68c; ;
 		}
 		.sidebar {
 			width: 250px; 
@@ -33,7 +33,6 @@
 			float: left;
 		}
 		.menu_name {
-			margin: 0;
 			font-weight: bold;
 			font-size: 20px;
 			padding: 25px 0 0 15px;
@@ -42,11 +41,23 @@
 			list-style-type: square; 
 		}
 		.content {
-			margin-left: 250px;
+			margin: 0 0 0 250px;
+			padding: 15px;
+			background: url(img/ball1.png) 100% 0% repeat-y; 
+			background-color: #fff;
 		}
 		.content_image {
 			width: 250px;
 			float: left;
+			padding: 0 25px 20px 0;
+		}
+		.clear_img {
+			clear: both;
+		}
+		.content_title {
+			text-transform: uppercase;
+			text-align: center;
+			font-size: 24px;
 		}
 		.clear {
 			clear: both;
@@ -73,17 +84,17 @@
 		<div class="sidebar">
 			<div class="menu_name">Виды спорта</div>
 			<ul class="menu">
-				<li><a href="#">Конькобежный спорт</a></li>
-				<li><a href="#">Биатлон</a></li>
-				<li><a href="#">Футбол</a></li>
-				<li><a href="#">Стрельба из лука</a></li>
-				<li><a href="#">Прыжки в длину</a></li>
-				<li><a href="#">Прыжки в высоту</a></li>
+				<li><a href="https://ru.wikipedia.org/wiki/Конькобежный_спорт" target="_blank" title="Переход на Википедию">Конькобежный спорт</a></li>
+				<li><a href="https://ru.wikipedia.org/wiki/Биатлон" target="_blank" title="Переход на Википедию">Биатлон</a></li>
+				<li><a href="https://ru.wikipedia.org/wiki/Футбол" target="_blank" title="Переход на Википедию">Футбол</a></li>
+				<li><a href="https://ru.wikipedia.org/wiki/Стрельба_из_лука_(вид_спорта)" target="_blank" title="Переход на Википедию">Стрельба из лука</a></li>
+				<li><a href="https://ru.wikipedia.org/wiki/Прыжок_в_длину" target="_blank" title="Переход на Википедию">Прыжки в длину</a></li>
+				<li><a href="https://ru.wikipedia.org/wiki/Прыжок_в_высоту" target="_blank" title="Переход на Википедию">Прыжки в высоту</a></li>
 			</ul>
 		</div>
 		<div class="content">
+			<h1 class="content_title">Футбол</h1>
 			<img class="content_image" src="img/fb.jpg" alt="Иллюстрация футбола" title="Футбол">
-			<h3 class="content_title">Футбол</h3>
 			<p>Футбол - командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или
 				другими частями тела (кроме рук) большее количество раз, чем команда соперника.</p>
 			<p>Есть 17 официальных правил игры, каждое из которых содержит список оговорок и руководящих
@@ -91,6 +102,28 @@
 				для таких групп, как юниоры, взрослые, женщины и люди с ограниченными физическими возможностями. Законы
 				очень часто формулировались в общих чертах, которые позволяют упростить их прменения в зависимости от
 				характера игры.</p>
+				<p>Каждая футбольная команда должна состоять максимум из одиннадцати игроков (именно столько может находиться одновременно на поле), один из которых вратарь и он же единственный игрок, которому разрешено играть руками в рамках штрафной площади у своих ворот.</p>
+				<p>Последняя редакция официальных футбольных правил датирована 1 июня 2013 года и состоит из 17 правил, вот краткое содержание:</p>
+				<ol>
+					<li>Поле для игры</li>
+					<li>Мяч</li>
+					<li>Игроки</li>
+					<li>Экипировка игроков</li>
+					<li>Судья</li>
+					<li>Другие официальные лица матча</li>
+					<li>Другие официальные лица матча</li>
+					<li>Начало и возобновление игры</li>
+					<li>Мяч в игре и не в игре</li>
+					<li>Определение результата матча</li>
+					<li>«Вне игры»</li>
+					<li>Нарушения Правил и недисциплинированное поведение</li>
+					<li>Штрафной/свободный удары</li>
+					<li>11-метровый удар</li>
+					<li>Вбрасывание мяча</li>
+					<li>Удар от ворот</li>
+					<li>Угловой удар</li>
+				</ol>
+				<div class="clear_img"></div>
 		</div>
 		<div class="clear"></div>
 	</div>
